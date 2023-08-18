@@ -7,7 +7,7 @@ from bot.utils import accept_all_requests, add_new_user
 @Client.on_message(filters.command("start"))
 async def start(client, message):
     await add_new_user(message.from_user.id)
-    await message.reply_text("Hello World!")
+    await message.reply_text("Hello /nI'm Auto Request Accept Bot")
 
 
 @Client.on_message(filters.command("approve") & filters.private & filters.user(Config.OWNER_ID))
