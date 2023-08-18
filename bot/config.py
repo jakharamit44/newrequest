@@ -48,4 +48,4 @@ class Script(object):
 
     ACCEPT_MESSAGE = os.environ.get(
 
-        "ACCEPT_MESSAGE", "Your request to join channel has been approved!/n/n Send /start to know more")
+        "ACCEPT_MESSAGE", "Your request to join channel has been approved!\n\n Send /start to know more")
