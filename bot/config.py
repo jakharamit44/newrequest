@@ -26,7 +26,7 @@ class Config(object):
 
     BOT_TOKEN = os.environ.get(
 
-        "BOT_TOKEN", "6511699844:AAFEF1kACN7F9aaIB7HiuJ6ETk9LceXji30")
+        "BOT_TOKEN", "6511699844:AAHEKhNTo4qiPF42W5PqoV4MvAiPJrOjw0o")
 
     OWNER_ID = int(os.environ.get("OWNER_ID", "5702180952"))
 
