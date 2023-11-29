@@ -36,7 +36,7 @@ class Config(object):
 
         "CHAT_ID", "-1001587677801").split()]
 
-    SESSION_STRING = os.environ.get("SESSION_STRING", "BQEOqKoAD9v3tANx-2GzCt0dGrXzOxtcc4eml2ecbFfcGtCu7r_WKkkUn4nwJXqG0aKalXSHnHoxQSBL0y3WBkk78pOKoBbe80x156Js7KIAAdl6yB0OMyRVj-2R-x8ZUkQvFCtCXolWV_AOvvgKG6NV7fwo23_OAONRBhSWkiRZzyVHBSMlmN79aFkVKxOC054sFZYuTVB90Z4jfy4mYBhU9kS2Av5bjvrHXH0b8OtwTClGgUE96dPQGSMWOf0ok73pq62l1_VYy9J5NzKNj5FygyX4Np46zG2kIbfE_RQ-cEmNY7K01jLHUH_ZiUzU7mAh7oZteKfogXLjmHoQ1txp5a8rgQAAAAFT4GBYAA")
+    SESSION_STRING = os.environ.get("SESSION_STRING", "BQCPmNm8m5btkEqZFNj74ALumrfNcTigxgcBDBOeDxZByqfo5eEKCuAKJSyFMR5Q6zwPesl603CiOnpRB0Tg59_v8QefERzFPdRZ2Q3HD_-Uy971dAv-a8HMNFsSGVpISlU3Bl7dvdBXNMRjJZ6fYiYegZYAtgSVvSwueWEF9ziKvdnh4lgSg6Oqi55GmCle0GwdGWI3lvjQxvtO4oiPFvS6_hHAFPUUS7SmuAj_CWsPuJYhs-svlyvzkqjii7Nh0YTAK_PY586FMpdkN5hyQYNueGsd051n4JaucF04z7-p2x-ymOVgE-4oT-aWN4Y0YuOww1oOoSALZAH4juC7QfybAAAAAVPgYFgA")
 
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://baba:baba@cluster0.etssakc.mongodb.net/?retryWrites=true&w=majority")
 
